@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                     ))
               ],
             ),
-            SizedBox(height: 35),
+            SizedBox(height: 30),
             Column(
               children: [
                 Image.asset(
