@@ -111,7 +111,7 @@ class MyApp extends StatelessWidget {
                           SizedBox(width: 8),
                           Icon(
                             Icons.copy,
-                            size: 15,
+                            size: 16,
                             color: Colors.black,
                           ),
                         ],
@@ -126,7 +126,7 @@ class MyApp extends StatelessWidget {
                         endIndent: 0,
                         color: Colors.black,
                       ),
-                      SizedBox(height: 10),
+                      SizedBox(height: 5),
                       Row(
                         children: [
                           Text('Status Keaktifan',
@@ -153,7 +153,7 @@ class MyApp extends StatelessWidget {
                         endIndent: 0,
                         color: Colors.black,
                       ),
-                      SizedBox(height: 10),
+                      SizedBox(height: 5),
                       Row(
                         children: [
                           Text(
@@ -182,7 +182,7 @@ class MyApp extends StatelessWidget {
                         endIndent: 0,
                         color: Colors.black,
                       ),
-                      SizedBox(height: 10),
+                      SizedBox(height: 5),
                       Row(
                         children: [
                           Text(
@@ -203,7 +203,7 @@ class MyApp extends StatelessWidget {
                             ),
                           ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 )
