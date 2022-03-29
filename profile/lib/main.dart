@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                     ))
               ],
             ),
-            SizedBox(height: 30),
+            SizedBox(height: 15),
             Column(
               children: [
                 Image.asset(
@@ -75,13 +75,13 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.w400,
                   ),
                 ),
-                SizedBox(height: 10),
+                SizedBox(height: 5),
                 Container(
                   padding: EdgeInsets.only(
-                    top: 20,
-                    bottom: 20,
-                    left: 20,
-                    right: 20,
+                    top: 18,
+                    bottom: 18,
+                    left: 18,
+                    right: 18,
                   ),
                   margin: EdgeInsets.only(
                       top: 20, bottom: 100, left: 20, right: 20),
