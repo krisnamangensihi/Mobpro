@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color(0xff3A3845),
+        backgroundColor: Color(0xff141E27),
         body: SafeArea(
             child: ListView(
           children: [
