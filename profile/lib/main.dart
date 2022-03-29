@@ -108,7 +108,6 @@ class MyApp extends StatelessWidget {
                               fontWeight: FontWeight.w600,
                             ),
                           ),
-                          Divider(),
                           SizedBox(width: 8),
                           Icon(
                             Icons.copy,
@@ -117,7 +116,17 @@ class MyApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 7),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Divider(
+                        height: 1,
+                        thickness: 1,
+                        indent: 0,
+                        endIndent: 0,
+                        color: Colors.black,
+                      ),
+                      SizedBox(height: 5),
                       Row(
                         children: [
                           Text('Status Keaktifan',
