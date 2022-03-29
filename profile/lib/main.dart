@@ -120,13 +120,13 @@ class MyApp extends StatelessWidget {
                         height: 5,
                       ),
                       Divider(
-                        height: 1,
-                        thickness: 1,
+                        height: 15,
+                        thickness: 3,
                         indent: 0,
                         endIndent: 0,
                         color: Colors.black,
                       ),
-                      SizedBox(height: 5),
+                      SizedBox(height: 10),
                       Row(
                         children: [
                           Text('Status Keaktifan',
@@ -136,12 +136,72 @@ class MyApp extends StatelessWidget {
                                 fontWeight: FontWeight.w600,
                               )),
                           SizedBox(width: 155),
-                          Text('Aktif',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 16,
-                                fontWeight: FontWeight.w600,
-                              )),
+                          Text(
+                            'Aktif',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Divider(
+                        height: 15,
+                        thickness: 3,
+                        indent: 0,
+                        endIndent: 0,
+                        color: Colors.black,
+                      ),
+                      SizedBox(height: 10),
+                      Row(
+                        children: [
+                          Text(
+                            'Program Studi',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          SizedBox(width: 100),
+                          Text(
+                            'Ilmu Komputer',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Divider(
+                        height: 15,
+                        thickness: 3,
+                        indent: 0,
+                        endIndent: 0,
+                        color: Colors.black,
+                      ),
+                      SizedBox(height: 10),
+                      Row(
+                        children: [
+                          Text(
+                            'Jenjang Pendidikan',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          SizedBox(width: 150),
+                          Text(
+                            'S1',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
                         ],
                       )
                     ],
