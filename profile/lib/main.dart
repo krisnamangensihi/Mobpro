@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 23,
-                    fontWeight: FontWeight.w800,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
                 SizedBox(height: 5),
@@ -78,10 +78,10 @@ class MyApp extends StatelessWidget {
                 SizedBox(height: 5),
                 Container(
                   padding: EdgeInsets.only(
-                    top: 18,
-                    bottom: 18,
-                    left: 18,
-                    right: 18,
+                    top: 15,
+                    bottom: 15,
+                    left: 15,
+                    right: 15,
                   ),
                   margin: EdgeInsets.only(
                       top: 20, bottom: 100, left: 20, right: 20),
@@ -206,9 +206,9 @@ class MyApp extends StatelessWidget {
                       ),
                     ],
                   ),
-                )
+                ),
               ],
-            )
+            ),
           ],
         )),
       ),
