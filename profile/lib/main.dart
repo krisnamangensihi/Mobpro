@@ -78,13 +78,13 @@ class MyApp extends StatelessWidget {
                 SizedBox(height: 5),
                 Container(
                   padding: EdgeInsets.only(
-                    top: 15,
-                    bottom: 15,
+                    top: 10,
+                    bottom: 10,
                     left: 15,
                     right: 15,
                   ),
-                  margin: EdgeInsets.only(
-                      top: 20, bottom: 100, left: 20, right: 20),
+                  margin:
+                      EdgeInsets.only(top: 20, bottom: 20, left: 20, right: 20),
                   decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(10)),
@@ -207,6 +207,127 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 30, right: 30),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        'Nama Lengkap',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      Text(
+                        'Krisna DWiputra Mangansihi',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Divider(
+                  height: 14,
+                  thickness: 2,
+                  indent: 20,
+                  endIndent: 20,
+                  color: Colors.white,
+                ),
+                SizedBox(height: 3),
+                Padding(
+                  padding: const EdgeInsets.only(left: 30, right: 30),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        'Nama Panggilan',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      Text(
+                        'Krisna',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Divider(
+                  height: 14,
+                  thickness: 2,
+                  indent: 20,
+                  endIndent: 20,
+                  color: Colors.white,
+                ),
+                SizedBox(height: 3),
+                Padding(
+                  padding: const EdgeInsets.only(left: 30, right: 30),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        'Alamat Rumah',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      Text(
+                        'Bukit Asri Ciomas Jl.Pinus I, Desa Pagelaran,Kecamatan Ciomas,Bogor,Jawa Barat,Indonesia,16610',
+                        // maxLines: 2,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                          // overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  thickness: 2,
+                  indent: 20,
+                  endIndent: 20,
+                  color: Colors.white,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 30, right: 30),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        'Kartu Mahasiswa',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.badge,
+                            color: Colors.white,
+                          ))
+                    ],
+                  ),
+                ),
+                SizedBox(height: 30),
               ],
             ),
           ],
